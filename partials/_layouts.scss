@@ -53,11 +53,32 @@
  .botton-contato{
     padding: 14px 28px;
     color: white;
-    background-color: purple;
-    border: 0;
+    background-color: skyblue;
+    font-size: 18px;
+    border-radius: 150px;
+    font-weight: 600 ;
+    margin: 14px 0;
+
+ }
+ .POOCOIN{
+    padding: 14px 28px;
+    color: white;
+    background-color: skyblue;
+    border-radius:150px ;
     font-size: 18px;
     font-weight: 600 ;
     margin: 14px 0;
+
+ }
+ .AVE{
+    padding: 14px 28px;
+    color: white;
+    background-color: skyblue;
+    border-radius: 150px;
+    font-size: 18px;
+    font-weight: 600 ;
+    margin: 14px 0;
+
 
  }
 
@@ -157,10 +178,7 @@
 }
 
 .serviços-content  h2{
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 38px;
-    margin-bottom: 14px;
+    padding: 5px;
 }
 
 .serviços-content p{
@@ -171,6 +189,8 @@
 }
 
 .haircuts{
+    width: 600px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,27 +199,27 @@
 }
 
 .haircut{
+    width: 300px;
+    height: 100px;
     flex:1;
     display: flex;
     flex-direction: column;
-    background-color: $white-normal;
-    border-radius: 8px;
+    background-color: skyblue;
+    border-radius: 0px;
     box-shadow: 0px -1px 17px -4px rgba(0,0,0, 0.45);
 
     overflow: hidden;
 
-    img{
-        width: 100%;
-        max-width: 354px;
-        transition: transform 0.2;
+    h6{
+        padding: 25px;
+        word-spacing: 150px;
+        
     }
 
+    
+
 }
 
-.haircut img:hover{
-    transform: scale(1.2);
-    z-index: 1;
-}
 
 .haircut-info{
     width: 100%;
