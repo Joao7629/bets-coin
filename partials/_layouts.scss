@@ -168,6 +168,65 @@
 }
 
 
+.roteiro{
+    
+    background-color:#626671;
+    color: $black-normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 14px;
+
+    
+    }
+
+    .roteiro-content{
+        h2{
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 38px;
+            margin-bottom: 14px;
+        }
+    }
+
+    .passos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        padding: 0 44px 34px 44px;
+
+    }
+
+    
+   .passo-1{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    background-color: $white-normal;
+    border-radius: 8px;
+    box-shadow: 0px -1px 17px -4px rgba(0,0,0, 0.45);
+
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        max-width: 354px;
+        transition: transform 0.2;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .passos{
+        flex-direction: column;
+    }
+    .passo-1{
+        max-width: 740px;
+    }
+}
+
 
 .serviços{
    
@@ -188,8 +247,9 @@
     
 }
 
-.serviços-content  h2{
+.serviços-content  h3{
     padding: 5px;
+    text-transform: uppercase;
 }
 
 .serviços-content p{
@@ -200,14 +260,22 @@
 }
 
 .haircuts{
-    width: 100px;
-    height: 300px;
+    
+    width: 250px;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
     padding: 0 44px 34px 44px;
+
+       
 }
+
+
+
+
+
 
 .haircut{
     width: 300px;
@@ -215,11 +283,11 @@
     flex:1;
     display: flex;
     flex-direction: column;
-    background-color: url(/bets-coin-main/asstes/WhatsApp\ Image\ 2024-07-22\ at\ 23.11.11.jpeg);
+    ;
     border-radius: 0px;
     box-shadow: 0px -1px 17px -4px rgba(0,0,0, 0.45);
 
-    overflow: hidden;
+    
 
     h6{
         padding: 25px;
