@@ -93,7 +93,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(1, 1, 0, 0.889), rgba(119, 120, 131, 0.6196078431)), url("/asstes/WhatsApp Image 2024-07-22 at 23.11.11.jpeg");
+  background-image: linear-gradient(to bottom, rgba(1, 1, 0, 0.889), #06121e), url("/asstes/WhatsApp Image 2024-07-22 at 23.11.11.jpeg");
   left: 0;
   top: 0;
   width: 100%;
@@ -185,8 +185,13 @@ i {
     font-size: 24px;
   }
 }
+.grafico2 {
+  width: 100%;
+  height: 100vh;
+}
+
 .sobre {
-  background-color: rgba(180, 180, 190, 0.568627451);
+  background-color: #06121e;
   overflow: hidden;
   color: #FFF;
 }
@@ -232,7 +237,7 @@ i {
   }
 }
 .roteiro {
-  background-color: #626671;
+  background-color: #06121e;
   color: #222324;
   display: flex;
   flex-direction: column;
@@ -353,7 +358,7 @@ i {
   }
 }
 .footer {
-  background-color: #626671;
+  background-color: #06121e;
   display: flex;
   flex-direction: column;
   align-items: center;
